@@ -6,43 +6,43 @@
 		"RepeatCableCarCutscene": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Repeat cable car cutscene everytime player uses the Cable Car"
+			"Description": "Repetir la escena del teleférico cada vez que el jugador use el teleférico"
 		},
 		
 		"EnableOtherNPCsInCableCar": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Enable the chances of other NPCs to appear riding the Cable Car (Along with LASV, ES and SVE NPCs)"
+			"Description": "Habilitar las posibilidades de que otros NPC aparezcan en el teleférico (junto con los NPC de 'LASV, ES y SVE')"
 		},
 		
 		"EnableVillageMusic": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Enable the custom music to play in Ridgeside Village"
+			"Description": "Habilitar la música personalizada para que se reproduzca en Ridgeside Village"
 		},
 		
 		"PortraitType": {
 			"AllowValues": "Legacy, Official",
 			"Default": "Legacy",
-			"Description": "Change Portrait Type (Legacy by Rafseazz / Official by avislone) Legacy/Official"
+			"Description": "Cambiar tipo de retrato (Versión heredada 'Legacy' por Rafseazz / Versión oficial 'Official' por avislone) Legacy/Official"
 		},
 		
 		"MaddieGlasses": {
 			"AllowValues": "true, false",
 			"Default": "false",
-			"Description": "Give Maddie some glasses"
+			"Description": "Dale a Maddie unos anteojos"
 		},
 		
 		"KennethBeard": {
 			"AllowValues": "true, false",
 			"Default": "false",
-			"Description": "Give Kenneth a beard"
+			"Description": "Dale a Kenneth una barba"
 		},
 		
 		"BrandonIan": {
 			"AllowValues": "true, false",
 			"Default": "false",
-			"Description": "bodyartbrandon's Alternate Ian Portrait"
+			"Description": "Retrato alternativo de Ian por 'bodyartbrandon'"
 		},
 
    },
@@ -125,7 +125,7 @@
 		//Sam Band Only
 		{
 		"Name": "RSVGATHER",
-		"Value": "/warp Sam 85 40/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"..and a one.. and a two.. and a..\"/",
+		"Value": "/warp Sam 85 40/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"...y uno... y dos... y...\"/",
 		"When": { "HasSeenEvent: |contains=75160120": false },
 		},
 		{
@@ -136,7 +136,7 @@
 		//Sam Band and Alissa
 		{
 		"Name": "RSVGATHER",
-		"Value": "/warp Alissa 85 40/faceDirection Alissa 2/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"..and a one.. and a two.. and a..\"/",
+		"Value": "/warp Alissa 85 40/faceDirection Alissa 2/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"...y uno... y dos... y...\"/",
 		"When": { "HasSeenEvent: |contains=75160120": true },
 		},
 		{
@@ -147,7 +147,7 @@
 		//Sam Band and farmer (bugged)
 		//{
 		//"Name": "RSVGATHER",
-		//"Value": "/warp farmer 83 40/faceDirection farmer 2/warp Sam 85 40/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"..and a one.. and a two.. and a..\"/",
+		//"Value": "/warp farmer 83 40/faceDirection farmer 2/warp Sam 85 40/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"...y uno... y dos... y...\"/",
 		//"When": { "HasDialogueAnswer": 75161001 },
 		//"Update": "OnLocationChange",
 		//},
@@ -160,7 +160,7 @@
 		//Sam Band, Alissa, and farmer (bugged)
 		//{
 		//"Name": "RSVGATHER",
-		//"Value": "/warp farmer 83 40/faceDirection farmer 2/warp Alissa 85 40/faceDirection Alissa 2/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"..and a one.. and a two.. and a..\"/",
+		//"Value": "/warp farmer 83 40/faceDirection farmer 2/warp Alissa 85 40/faceDirection Alissa 2/showFrame Sam 20/showFrame Abigail 49/showFrame Sebastian 42/fade/viewport 85 43/pause 800/speak Sam \"...y uno... y dos... y...\"/",
 		//"When": { "HasSeenEvent": 75160120, "HasDialogueAnswer": 75161001 },
 		//"Update": "OnLocationChange",
 		//},
